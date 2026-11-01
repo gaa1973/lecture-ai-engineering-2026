@@ -1,0 +1,201 @@
+{
+  "summary": {
+    "label": "after",
+    "n": 21,
+    "format_rate": 1.0,
+    "content_rate": 0.9047619047619048,
+    "both_rate": 0.9047619047619048,
+    "seconds": 31.0
+  },
+  "rows": [
+    {
+      "question": "作者の名前を教えてください",
+      "raw": "{\"answer\": \"作者は原泰久です。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "作者のお名前は何ですか",
+      "raw": "{\"answer\": \"作者は原泰久です。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "この作品を手がけた漫画家は誰ですか",
+      "raw": "{\"answer\": \"作者は原泰久です。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "掲載されている雑誌の名前は？",
+      "raw": "{\"answer\": \"連載誌は週刊ヤングジャンプです。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "この漫画が載っている雑誌は何ですか",
+      "raw": "{\"answer\": \"連載誌は週刊ヤングジャンプです。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "どの雑誌に載っていますか",
+      "raw": "{\"answer\": \"連載誌は週刊ヤングジャンプです。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "どの時代を描いていますか",
+      "raw": "{\"answer\": \"物語の舞台は中国の戦国時代です。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "物語が描く時代はいつですか",
+      "raw": "{\"answer\": \"物語の舞台は中国の戦国時代です。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "物語の舞台となっている時代を教えてください",
+      "raw": "{\"answer\": \"物語の舞台は中国の戦国時代です。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "主人公は何になりたいのですか",
+      "raw": "{\"answer\": \"信の目標は、天下の大将軍になることです。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "信が目指す地位は何ですか",
+      "raw": "{\"answer\": \"信の目標は、天下の大将軍になることです。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "信はどんな立場を目指していますか",
+      "raw": "{\"answer\": \"信の目標は、天下の大将軍になることです。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "信の隊は何と呼ばれますか",
+      "raw": "{\"answer\": \"信が率いる部隊は、飛信隊（ひしんたい）と呼ばれます。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "信の率いる部隊の呼び名は何ですか",
+      "raw": "{\"answer\": \"信が率いる部隊は、飛信隊（ひしんたい）と呼ばれます。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "信の部隊の呼び名を教えてください",
+      "raw": "{\"answer\": \"信が率いる部隊は、飛信隊（ひしんたい）と呼ばれます。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "作者の原泰久さんの出身地はどこですか",
+      "raw": "{\"answer\": \"この FAQ には記載がありません。運営に確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "飛信隊の隊員は何人ですか",
+      "raw": "{\"answer\": \"この FAQ には記載がありません。運営に確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "連載はいつ始まりましたか",
+      "raw": "{\"answer\": \"連載誌は週刊ヤングジャンプです。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "ヤングジャンプは毎週何曜日に発売されますか",
+      "raw": "{\"answer\": \"連載誌は週刊ヤングジャンプです。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "戦国時代に秦の他にどんな国がありますか",
+      "raw": "{\"answer\": \"この FAQ には記載がありません。運営に確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "信が大将軍になるのはいつですか",
+      "raw": "{\"answer\": \"この FAQ には記載がありません。運営に確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    }
+  ]
+}

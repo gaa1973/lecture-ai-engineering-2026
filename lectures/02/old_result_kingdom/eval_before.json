@@ -1,0 +1,201 @@
+{
+  "summary": {
+    "label": "before",
+    "n": 21,
+    "format_rate": 0.19047619047619047,
+    "content_rate": 0.0,
+    "both_rate": 0.0,
+    "seconds": 18.1
+  },
+  "rows": [
+    {
+      "question": "連載している雑誌を教えてください",
+      "raw": "{\"answer\": \"週刊ヤングジャンプ\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "作者の名前と連載誌を教えてください",
+      "raw": "{\"answer\": \"原泰久\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "この漫画を描いているのは誰で、どこに載っていますか",
+      "raw": "{\"answer\": \"原泰久\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "主人公は何を目指していますか",
+      "raw": "{\"answer\": \"天下の大将軍になることを目指しています\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "主人公の名前と目指すものを教えてください",
+      "raw": "{\"answer\": \"主人公は信（しん）で、天下の大将軍になることを目指しています。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "信はどんな立場を目指していますか",
+      "raw": "{\"answer\": \"天下の大将軍になることを目指しています\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "時代と国を教えてください",
+      "raw": "{\"answer\": \"中国の戦国時代\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "物語の時代背景を教えてください",
+      "raw": "{\"answer\": \"中国の戦国時代\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "信が戦う国はどこですか",
+      "raw": "{\"answer\": \"中国\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "嬴政に似ているのは誰ですか",
+      "raw": "{\"answer\": \"嬴政\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "漂と嬴政の関係を教えてください",
+      "raw": "{\"answer\": \"嬴政と漂は秦の王と秦の大将軍であり、瓜二つ（瓜二つ）の関係で、嬴政の身代わりを務めています。\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "信の親友はどんな役割を果たしましたか",
+      "raw": "{\"answer\": \"秦王・嬴政（えいせい）\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "信の隊は何と呼ばれますか",
+      "raw": "{\"answer\": \"飛信隊\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "信の率いる部隊の呼び名は何ですか",
+      "raw": "{\"answer\": \"飛信隊\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "信の部隊は何という名前ですか",
+      "raw": "{\"answer\": \"飛信隊\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "作者の原泰久さんの出身地はどこですか",
+      "raw": "{\"answer\": \"日本\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "飛信隊の隊員は何人ですか",
+      "raw": "{\"answer\": \"100\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "連載はいつ始まりましたか",
+      "raw": "{\"answer\": \"2004 年\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "漂はどうやって亡くなりましたか",
+      "raw": "{\"answer\": \"確認が必要\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "戦国時代に秦の他にどんな国がありますか",
+      "raw": "{\"answer\": \"中国\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "信が大将軍になるのはいつですか",
+      "raw": "{\"answer\": \"天下の大将軍になるのは 140 年頃です\"}",
+      "format_ok": false,
+      "format_reason": "missing_key",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    }
+  ]
+}
