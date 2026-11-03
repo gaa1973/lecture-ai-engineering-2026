@@ -5,11 +5,16 @@
 """
 
 import json
+import random
+import re
+from datetime import datetime
 from functools import cache
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 MAX_RESULTS = 3
+LOG_DIR = Path(__file__).resolve().parent.parent / "learning_log"
 
 
 @cache
@@ -77,3 +82,38 @@ def get_lecture_summary(lecture: int) -> str:
         available = sorted(p.stem for p in (DATA_DIR / "lectures").glob("*.md"))
         return f"第{lecture}回の要点はまだありません。用意されている回: {', '.join(available)}"
     return path.read_text(encoding="utf-8")
+
+
+def make_quiz(lecture: int) -> str:
+    """指定した回の用語から1つを選び、確認問題と答えを返す。
+
+    「第2回の確認問題を出して」のように、復習用の問題を求められたときに使う。
+    lecture には回の番号（1始まりの整数）を入れる。
+    """
+    entries = [e for e in load_glossary() if e["lecture"] == lecture]
+    if not entries:
+        return f"第{lecture}回の用語は用語集にありません。"
+    entry = random.choice(entries)
+    return json.dumps(
+        {"question": f"「{entry['term']}」の意味は？", "answer": entry["definition"]},
+        ensure_ascii=False,
+    )
+
+
+def save_learning_log(title: str, content: str) -> str:
+    """学習の記録（今日学んだこと・気づき・疑問）を learning_log/ フォルダにファイルとして保存する。
+
+    「今日の学習を記録して」「この内容をメモに残して」のように、利用者が記録の保存を
+    求めたときだけ使う。保存は取り消しにくいので、実行の前に利用者の承認が入る。
+    title には短い題名、content には記録する本文（Markdown）を入れる。
+    """
+    safe = re.sub(r"[^\w\-]+", "_", title, flags=re.UNICODE).strip("_")[:40] or "log"
+    today = datetime.now(ZoneInfo("Asia/Tokyo")).strftime("%Y-%m-%d")
+    LOG_DIR.mkdir(exist_ok=True)
+    path = LOG_DIR / f"{today}_{safe}.md"
+    n = 2
+    while path.exists():  # 既存の記録を上書きしない
+        path = LOG_DIR / f"{today}_{safe}_{n}.md"
+        n += 1
+    path.write_text(f"# {title}\n\n{content}\n", encoding="utf-8")
+    return f"保存しました: learning_log/{path.name}"
